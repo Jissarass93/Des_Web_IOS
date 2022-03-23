@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lenag="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>aula 07 - Elemento form</title>
+</head>
+
+<body>
+    <div>
+        <header>
+            <nav>
+
+                <h2>Elemento Formulário</h2>
+                <ul>
+                    <li><a href="">Elementos de formulário input e label</a></li>
+                    <li><a href="">Tipos checkbox e radio</a></li>
+                    <li><a href="">select e datalist</a></li>
+                    <li><a href="">textarea</a></li>
+                    <li><a href="">fieldset e legend</a></li>
+                    <li><a href="">Atributo action do elemento form e elemento output</a></li>
+                </ul>
+            </nav>
+
+        </header>
+        <main>
+            <fieldset>
+                <!--fieldset usado para agruparos campos do formulário-->
+
+                <legend>Texto poetico e um tipo de carne</legend>
+                <!--elemento legend serve definir uma legenda-->
+
+                <p>é sobre isso e esta tudo bem!!
+                    poetico
+                </p>
+                <form method="post" id="fcontato" action="mailto:jissarassantana@gmail.com" name="Churrasco">
+
+                    <label for="">Tipos de carne</label>>
+                    <input type="text" requered="requered" maxlength="10" size="30"
+                        name="Quero inserir uma informação sobre churrasco" />
+                    <!--usamos o for na tag label e o (id) na tag input , quando for usar o requered(campo obrigatóro) -->
+                    <label for="cTipos de carne">Tipos de carne</label>>
+                    <input required type="submit" id="cTipos de carne" /><br>
+                    <!--Radio-->
+                    <p>Qual sua cor preferida?</p>
+                    <input type="radio" id="I" name="COR">
+                    <label for="I">Amarelo</label><br>
+                    <input type="radio" id="C" name="COR">
+                    <label for="C">Azul</label><br>
+                    <input type="radio" id="P" name="COR">
+                    <label for="P">Preto</label><br>
+
+                    <!--CHECKBOX-->
+                    <p>Qual sua comida favorita?</p>
+                    <input type="checkbox" id="P" name="comida1" value="Pizza">
+                    <label for="P">Pizza</label><br>
+                    <input type="checkbox" id="L" name="comida2" value="Lasanha">
+                    <label for="L">Lasanha</label><br>
+                    <input type="checkbox" id="F" name="comida3" value="Feijoada">
+                    <label for="F">Feijoada</label><br>
+                    <input type="checkbox" id="C" name="comida4" value="Churrasco">
+                    <label for="C">Churrasco</label><br>
+                    <br>
+
+                    <!--SELECT LISTA SUSPENSA-->
+                    <label for="Time">Qual melhor time?</label>
+
+                    <select name="Time" id="Melhor tipe">
+                        <option value="saoPaulo">São Paulo</option>
+                        <option value="palmeiras">Palmeiras</option>
+                        <option value="corinthans">Corinthans</option>
+                        <option value="santos">Santos</option>
+                    </select>
+                    <br><br>
+
+                    <!--Tipo range-->
+                    0
+                    <input type="range" name="" id="">
+                    100<br><br>
+
+                    <!--atributo range-->
+                    0
+                    <input type="range" list="valor_01" min="1" max="10">10
+                    <datalist id=valor_01>
+                        <option value="1"></option>
+                        <option value="2"></option>
+                        <option value="3"></option>
+                        <option value="4"></option>
+                        <option value="5"></option>
+                        <option value="6"></option>
+                        <option value="7"></option>
+                        <option value="8"></option>
+                        <option value="9"></option>
+                        <option value="10"></option>
+                        1
+
+                        <br><br>
+                        <!--elemento textarea -->
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Deixe aqui o seu feedback"></textarea>
+                        <br><br>
+
+                        <!--DATALIST LISTA PRÉ DEFINIDA-->
+                        <input type="submit" name="Enviar" /><br>
+
+            </fieldset><br>
+
+
+            </form>
+
+
+
+        </main>
+
+
+        <footer>
+            <p> &copy; Jissara.Todos os direitos reservados</p>
+        </footer>
+</body>
+
+</html>
