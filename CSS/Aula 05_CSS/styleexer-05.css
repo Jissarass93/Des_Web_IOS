@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+body {
+    background-color: #ffffb3;
+    color: #191970;
+    font-family: Arial, Verdana, sans-serif;
+    background-image : url(img-aula05css.jpg);
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: 300px;
+    height: 100vh;
+    text-align: center;
+    padding: 0 20px;
+
+}
+
+h1 {
+    background-color: #ffcc00;
+    color: black;
+
+    text-align: center;
+    line-height: 200%;
+    font-family: Georgia, “Times New Roman”, serif;
+    padding: 0.5em;
+}
+
+img {
+    height: 250px;
+    width: 201px;
+    
+}
+
+figure {
+    width: 201px;
+    padding: 5px;
+    border: 5px solid #000000;
+
+}
+
+figcaption {
+    text-align: center;
+    font-family: Papyrus, fantasy;
+}
+
+footer {
+    color: #333333;
+    font-size: .75em;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#nav .btn {
+    font-size: 18px;
+    text-decoration: none;
+    color: #1a120b;
+    border: #ecce22 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
