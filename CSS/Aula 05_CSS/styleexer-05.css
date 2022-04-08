@@ -11,8 +11,7 @@ body {
     height: 100%;
     padding: 30px 0;
     backdrop-filter: 300px;
-     text-align: center;
-    
+     text-align: center;    
 
 }
 
@@ -50,7 +49,7 @@ footer {
     font-family: 'Courier New', Courier, monospace;
 }
 
-#nav .btn {
+.btn {
     font-size: 18px;
     text-decoration: none;
     color: #1a120b;
@@ -60,5 +59,16 @@ footer {
     margin-top: 20px;
 }
 .super{
-    float: left;
+    float: right;
+        
+}
+.list{
+    text-align: left;
+    color: #000000;
+    font-style: italic;
+    font-size: 1.5em;
+    margin-top: 10%;
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
