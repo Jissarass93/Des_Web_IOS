@@ -7,17 +7,18 @@ body {
     background-image : url(img-aula05css.jpg);
     background-size: cover;
     background-position: center;
+    width: 100%;
+    height: 100%;
+    padding: 30px 0;
     backdrop-filter: 300px;
-    height: 100vh;
-    text-align: center;
-    padding: 0 20px;
+     text-align: center;
+    
 
 }
 
 h1 {
     background-color: #ffcc00;
     color: black;
-
     text-align: center;
     line-height: 200%;
     font-family: Georgia, “Times New Roman”, serif;
@@ -57,4 +58,7 @@ footer {
     padding: 10px 20px;
     border-radius: 10px;
     margin-top: 20px;
+}
+.super{
+    float: left;
 }

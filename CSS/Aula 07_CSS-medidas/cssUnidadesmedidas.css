@@ -37,7 +37,7 @@ section {
 }
 
 .historia {
-    font-size: 75%;
+    font-size: 80%;
     padding: 0.5em;
     color: black;
 }
@@ -45,6 +45,7 @@ section {
 .list {
     font-size: 80%;
     padding: 0.2em;
+    text-align: left;
 }
 
 nav {
@@ -72,4 +73,10 @@ h2 {
     color: black;
     font-style: oblique;
 
+}
+footer{
+    color: #333333;
+    font-size: 0.75em;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
 }

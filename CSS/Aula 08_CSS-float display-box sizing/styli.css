@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+img{
+    width: 275px;
+    height: 183px;
+}
+.img1 {
+    float: right;
+}
+.divisao{
+    margin-top: 30%;
+}
+.paragrafo{
+    clear: none;
+}
+.img2{
+    float: left;
+}
+.img3{
+    float: right;
+}
+.div1{
+    border: 1px solid #000;
+    width:300px;
+    height: 100px;
+}
+.div2{
+    border:1px solid #000;
+    width: 300px;
+    height: 100px;
+    /* padding: 50px; */
+    box-sizing: border-box;
+}
+.ideia{
+    margin-top: 25%;
+}
