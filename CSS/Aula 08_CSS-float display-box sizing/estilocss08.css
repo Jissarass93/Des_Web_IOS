@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+body {
+    background-image: url(VL-FR6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+
+}
+img{
+    height: 400px;
+}
+
+h1 {
+    color: #e6e6fa;
+    font-size: 40px ;
+    text-decoration: none;
+    color: #171615;
+    border: #f3a867 1px oblique;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    line-height: 300% center ;
+    font-family: Georgia, "Times New Roman", serif;
+    text-shadow: 3px 3px 5px #cccccc;
+    text-align: center;
+}
+
+h2 {
+    border: black;
+    font-size: 28px;
+    text-decoration: none;
+    color: #161413;  
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 5px;
+
+}
+.dif{
+     border: black;
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    color: #0f0b7c;  
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 5px;
+    text-align: center;
+
+}
+
+.Todos {
+    margin-top: 5%;
+    border: black;
+    font-size: 18px;
+    text-decoration: none;
+    color: #362516;
+    border: #683e19 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 5%;
+}
+
+.img1 {
+    float: right;
+    font-size: 18px;
+    text-decoration: none;
+    color: #0f0f0e;
+    border: #6d4f35 2px oblique;
+    border-radius: 5px;
+    margin-top: 0%;
+}
+.img2 {
+    float: left;
+    font-size: 18px;
+    text-decoration: none;
+    color: #000000;
+    border: #6d4f35 2px oblique;
+    border-radius: 10px;
+    margin-top: 0%;
+}
+#menu .filmes  {
+    float: none;
+    font-size:18px;
+    text-decoration: none;
+    color: #453527;
+    border: #6d4f35 2px solid;
+    padding: 2em 5px;
+    border-radius: 10px;
+    margin-top: 15%;
+    text-align: center;
+}
+    
+.lista p{
+    font-size:35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    color: #14105e;
+    border: #6d4f35 2px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 15%;
+    text-align: center;
+    font-style: italic;
+}
+.lista{
+    float: none;
+    font-size:18px;
+    text-decoration: none;
+    color: #15110e;
+    border: #6d4f35 2px solid;
+    padding: 2.5px 5px;
+    border-radius: 2px;
+    margin-top: 2%;
+    text-align: left;
+}
+figcaption{
+    font-size: 25px;
+}
