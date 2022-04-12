@@ -52,42 +52,46 @@ h2 {
     text-align: center;
 
 }
-
-.Todos {
+/*.Todos {
     margin-top: 5%;
     border: black;
     font-size: 18px;
     text-decoration: none;
-    color: #362516;
-    border: #683e19 1px solid;
-    padding: 10px 20px;
+    color: #fffdfb;
+    border: #683e19 10px solid;
+    padding: 2em 20px;
     border-radius: 10px;
     margin-top: 5%;
-}
+}  */
 
-.img1 {
+
+.img1 #Todos {
+    float: left;
+    font-size: 20px;
+    text-decoration: none;
+    color: #0f0f0e;
+    border: #6d4f35 4px solid;
+    border-radius: 5px;
+    margin-top: 1%;
+    padding: 2em;
+    text-align: right;
+}
+.img2 #Todos {
     float: right;
     font-size: 18px;
     text-decoration: none;
-    color: #0f0f0e;
-    border: #6d4f35 2px oblique;
+    color: #000000;
+    border: #6d4f35 4px solid;
     border-radius: 5px;
     margin-top: 0%;
-}
-.img2 {
-    float: left;
-    font-size: 18px;
-    text-decoration: none;
-    color: #000000;
-    border: #6d4f35 2px oblique;
-    border-radius: 10px;
-    margin-top: 0%;
+    padding: 2em;
+    text-align: left;
 }
 #menu .filmes  {
     float: none;
     font-size:18px;
     text-decoration: none;
-    color: #453527;
+    color: #000000;
     border: #6d4f35 2px solid;
     padding: 2em 5px;
     border-radius: 10px;
