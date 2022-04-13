@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+body{
+    background-image: url(attackprinc_Edited.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+ img {
+    border-style: none;
+    height: 400px;
+}
+main{
+    color: #2b2d25;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    padding: 2em;
+}
+.Resumo  {
+    font-size: 1.2rem ;
+    font-weight: 600;
+    margin: 1.0rem;
+    padding: 2.0rem;
+    border: 2px solid #2c560f;
+    border-radius: 12px;
+    background-color: #b7b78d77;
+    color: black;
+    
+}
+figcaption {
+    font-size: 1.0rem;
+    font-weight: 600;
+    font-style: oblique;
+}
+h1{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font: 900;
+    color: rgb(78, 41, 5);
+}
+.fotos{font-size: 1.2rem ;
+    font-weight: 600;
+    margin: 1.0rem;
+    padding: 2.0rem;
+    border: 2px solid #2c560f;
+    border-radius: 12px;
+    background-color: #b7b78d77;
+    color: rgb(7, 7, 7);
+       
+
+}
+.media-object{
+    width:200px ;
+    height: 267px;
+    border: #2c560f 2px solid;
+}
