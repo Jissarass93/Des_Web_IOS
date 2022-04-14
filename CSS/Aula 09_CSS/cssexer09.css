@@ -5,9 +5,9 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    margin: 0;
     padding: 0;
-}
+   
+    }
  img {
     border-style: none;
     height: 400px;
@@ -20,6 +20,7 @@ main{
 }
 .container {
     padding: 2em;
+    display: flex;
 }
 .Resumo  {
     font-size: 1.2rem ;
@@ -51,11 +52,16 @@ h1{
     border-radius: 12px;
     background-color: #b7b78d77;
     color: rgb(7, 7, 7);
-       
+    display: flex;
 
 }
 .media-object{
     width:200px ;
     height: 267px;
     border: #2c560f 2px solid;
+}
+.header{
+    border-left: 2em;
+    border-right: 2em;
+    background-color: chocolate;
 }
