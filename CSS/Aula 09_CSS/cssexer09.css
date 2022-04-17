@@ -1,29 +1,35 @@
 @charset "UTF-8";
 
-body{
+body {
     background-image: url(attackprinc_Edited.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    padding: 0;
-   
-    }
- img {
-    border-style: none;
-    height: 400px;
+    background-attachment: center;
+    padding: 2em;    
+    border-right: 20px rgb(212, 123 ,6) ;
+    border-left:20px rgb(212, 123 ,6)
+
 }
-main{
+
+img {
+    border-style: none;
+    height: 300px;
+}
+
+main {
     color: #2b2d25;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
 }
+
 .container {
     padding: 2em;
     display: flex;
 }
-.Resumo  {
-    font-size: 1.2rem ;
+
+.Resumo {
+    font-size: 1.2rem;
     font-weight: 600;
     margin: 1.0rem;
     padding: 2.0rem;
@@ -31,20 +37,24 @@ main{
     border-radius: 12px;
     background-color: #b7b78d77;
     color: black;
-    
+
 }
+
 figcaption {
     font-size: 1.0rem;
     font-weight: 600;
     font-style: oblique;
 }
-h1{
+
+h1 {
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font: 900;
     color: rgb(78, 41, 5);
 }
-.fotos{font-size: 1.2rem ;
+
+.fotos {
+    font-size: 1.2rem;
     font-weight: 600;
     margin: 1.0rem;
     padding: 2.0rem;
@@ -55,12 +65,14 @@ h1{
     display: flex;
 
 }
-.media-object{
-    width:200px ;
+
+.media-object {
+    width: 200px;
     height: 267px;
     border: #2c560f 2px solid;
 }
-.header{
+
+.header {
     border-left: 2em;
     border-right: 2em;
     background-color: chocolate;
