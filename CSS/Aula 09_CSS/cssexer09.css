@@ -1,31 +1,22 @@
 @charset "UTF-8";
 
 body {
-    background-image: url(attackprinc_Edited.png);
+    margin-left: 5em solid #000;
+    margin-right: 5em solid #000;
+    background-image: url(Latest\ Attack\ On\ Titan\ Wallpaper\(9\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: center;
-    padding: 2em;    
-    border-right: 20px rgb(212, 123 ,6) ;
-    border-left:20px rgb(212, 123 ,6)
-
-}
+    }
 
 img {
     border-style: none;
     height: 300px;
 }
 
-main {
-    color: #2b2d25;
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-}
-
 .container {
     padding: 2em;
-    display: flex;
+    display: flex
 }
 
 .Resumo {
@@ -37,6 +28,8 @@ main {
     border-radius: 12px;
     background-color: #b7b78d77;
     color: black;
+    background-position: right;
+    text-align: left;
 
 }
 
@@ -44,6 +37,7 @@ figcaption {
     font-size: 1.0rem;
     font-weight: 600;
     font-style: oblique;
+
 }
 
 h1 {
@@ -63,14 +57,16 @@ h1 {
     background-color: #b7b78d77;
     color: rgb(7, 7, 7);
     display: flex;
+    text-align: center;
 
 }
 
-.media-object {
+ .media-object {
     width: 200px;
     height: 267px;
     border: #2c560f 2px solid;
-}
+    
+ }  
 
 .header {
     border-left: 2em;
