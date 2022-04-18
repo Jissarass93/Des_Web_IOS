@@ -3,19 +3,26 @@
 body {
     background-color: #ffffb3;
     color: #000000;
-    font-family: Arial, Verdana, sans-serif;
-    background-image : url(img-aula05css.jpg);
+    background-image: url(fundo03.png);
     background-size: cover;
-    background-repeat:no-repeat ;
-    backdrop-filter: 30px;
+    background-repeat:space repeat ;
+    background-attachment: fixed;
     text-align: left;   
-    
+    width: auto;
 
 }
+main{
+    padding: 3em;
+}
+p{
+    font-size: 1.4em;
+}
 .botoes{
-    border: 2px solid #cb522a;
-    background-color: #f1d74377;
-    color: #000000;
+    border: 2px dashed #cb522a;
+    background-color: #e7290777;
+    color: #e59824;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
 }
 h1 {
     background-color: #ffcc00;
@@ -23,7 +30,7 @@ h1 {
     text-align: center;
     line-height: 100%;
     font-family: Georgia, “Times New Roman”, serif;
-    padding: 0.5em;
+    padding: 1.4em;
 }
 
 img {
@@ -66,7 +73,7 @@ footer {
 }
 .list{
     text-align: left;
-    color: #db3b3b;
+    color: #b31cb6;
     font-style:normal;
 font-size: 18px;
     margin-top: 10%;
