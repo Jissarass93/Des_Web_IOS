@@ -1,17 +1,16 @@
 @charset "UTF-8";
 
 body {
-    margin-left: 5em solid #000;
-    margin-right: 5em solid #000;
+    
     background-image: url(Latest\ Attack\ On\ Titan\ Wallpaper\(9\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: center;
-    }
+
+}
 
 img {
-    border-style: none;
-    height: 300px;
+        height: 300px;
 }
 
 .container {
@@ -51,7 +50,7 @@ h1 {
     font-size: 1.2rem;
     font-weight: 600;
     margin: 1.0rem;
-    padding: 2.0rem;
+    padding: 1.4em;
     border: 2px solid #2c560f;
     border-radius: 12px;
     background-color: #b7b78d77;
@@ -61,15 +60,27 @@ h1 {
 
 }
 
- .media-object {
-    width: 200px;
-    height: 267px;
-    border: #2c560f 2px solid;
-    
- }  
+.video {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 1.0rem;
+    padding: 1.4em;
+    border: 2px solid #2c560f;
+    background-color: #b7b78d77;
+    color: rgb(7, 7, 7);
+    display: flex;
+        
+}
 
-.header {
-    border-left: 2em;
-    border-right: 2em;
-    background-color: rgb(0, 0, 0);
+.bot1 {
+    border: 2px solid #043d4b;
+    font-size: 20px;
+    font-style: italic;
+    padding: 1px; ;
+}
+
+.bot2 {
+    border: 2px solid #043d4b;
+    font-size: 20px;
+    font-style: italic;
 }
