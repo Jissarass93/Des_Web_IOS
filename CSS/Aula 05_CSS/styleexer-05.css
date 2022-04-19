@@ -2,32 +2,24 @@
 
 body {
     background-color: #ffffb3;
-    color: #000000;
-    background-image: url(fundo03.png);
+    color: #d42626;
+    background-image: url(fundo05.webp);
     background-size: cover;
     background-repeat: space repeat;
     background-attachment: fixed;
-    text-align: left;
     width: auto;
 
 }
 
-main {
+header {
     padding: 3em;
 }
 
 p {
     font-size: 1.4em;
+    background-color: rgba(170, 168, 165, 0.534);
+    color: rgb(3, 3, 3);
 }
-
-.botoes {
-    border: 2px dashed #cb522a;
-    background-color: #e7290777;
-    color: #e59824;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(0, 0, 0);
-}
-
 h1 {
     background-color: #ffcc00;
     color: rgb(255, 255, 255);
@@ -42,38 +34,16 @@ img {
     height: 340px;
     width: 620px;
     border: 5px #d42626 solid;
-    display: flex;
+   
 }
-
-figcaption {
+.src {
     text-align: center;
+    float: right;
     font-family: Papyrus, fantasy;
 }
-
-footer {
-    color: #f50303;
-    font-size: .75em;
-    font-style: italic;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-.btn {
-    font-size: 25px;
-    text-decoration: none;
-    color: #1a120b;
-    padding: 10px 20px;
-    border-radius: 10px;
-    margin-top: 20px;
-}
-
-.super {
-    float: right;
-
-}
-
 .list {
     text-align: left;
-    color: #b31cb6;
+    color: #ffffff;
     font-style: normal;
     font-size: 18px;
     margin-top: 10%;
@@ -81,8 +51,34 @@ footer {
     border-radius: 10px;
     margin-top: 20px;
 }
-
 h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: left auto;
+}
+.bot1{
+    border: 2px solid #043d4b;
+    font-size: 20px;
+    background-color: #ece363;
+    font-style: italic;
+}
+.bot2{
+    border: 2px solid #043d4b;
+    font-size: 20px;
+    background-color: #ece363;
+    font-style: italic;
+}
+.bot3{
+    border: 2px solid #043d4b;
+    font-size: 20px;
+    background-color: #ece363;
+    font-style: italic;
+}
+footer {
+    
+border-top: 1px solid #333;
+  bottom: 0;
+  left: 0;
+  height: 40px;
+  position: fixed;
+  width: 100%;
 }
