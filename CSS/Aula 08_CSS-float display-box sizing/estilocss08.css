@@ -9,49 +9,51 @@ body {
     background-size: cover;
     margin: 0;
     padding: 4em;
-
+    text-transform: uppercase
 }
-img{
+
+img {
     height: 400px;
 }
 
 h1 {
     color: #e6e6fa;
-    font-size: 40px ;
+    font-size: 40px;
     text-decoration: none;
     color: #171615;
     border: #f3a867 1px oblique;
     padding: 10px 20px;
     border-radius: 10px;
     margin-top: 20px;
-    line-height: 300% center ;
+    line-height: 300% center;
     font-family: Georgia, "Times New Roman", serif;
     text-align: center;
+
 }
 
 h2 {
     border: black;
     font-size: 28px;
     text-decoration: none;
-    color: #161413;  
+    color: #161413;
     padding: 10px 20px;
     border-radius: 20px;
     margin-top: 5px;
-
+    text-align: center;
 }
 
-.velo{
+.velo {
     border: black;
     font-size: 40px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
-    color: #331f02;  
+    color: #331f02;
     padding: 10px 20px;
     border-radius: 20px;
     margin-top: 5px;
-    text-align: right;
-
+    text-align: center
 }
+
 .Todos {
     margin-top: 5%;
     border: black;
@@ -62,7 +64,7 @@ h2 {
     padding: 2em 20px;
     border-radius: 10px;
     margin-top: 5%;
-} 
+}
 
 
 .img1 #Todos {
@@ -75,6 +77,7 @@ h2 {
     padding: 2em;
     text-align: right;
 }
+
 .img2 #Todos {
     float: right;
     font-size: 18px;
@@ -86,9 +89,10 @@ h2 {
     padding: 2em;
     text-align: left;
 }
-#menu .filmes  {
+
+#menu .filmes {
     float: none;
-    font-size:18px;
+    font-size: 18px;
     text-decoration: none;
     color: #000000;
     border: #6d4f35 2px solid;
@@ -97,9 +101,9 @@ h2 {
     margin-top: 15%;
     text-align: center;
 }
-    
-.lista p{
-    font-size:35px;
+
+.lista p {
+    font-size: 35px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-decoration: none;
     color: #14105e;
@@ -110,17 +114,28 @@ h2 {
     text-align: center;
     font-style: italic;
 }
-.lista{
+
+.lista {
     float: none;
-    font-size:18px;
-    text-decoration: none;
+    font-size: 18px;
     color: #15110e;
     border: #6d4f35 2px solid;
     padding: 2.5px 5px;
     border-radius: 2px;
     margin-top: 2%;
     text-align: left;
+    background-color: #796757ae;
 }
-figcaption{
+
+figcaption {
     font-size: 25px;
+}
+.btn{
+    background: rgb(216, 102, 21);
+    color: rgb(9, 9, 9);
+    padding: 0.8rem 1.8rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    border:#683e19 solid 
+
 }

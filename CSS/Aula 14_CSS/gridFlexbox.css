@@ -10,8 +10,12 @@ body {
     font-size: 1.3rem;
     font-family: 'Oswald', sans-serif;
     background: #f9f9f9;
+    background-image: url(./img2/FUNDO1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: center;
+    background-position: cover;
 }
-
 a {
     color: #333;
     text-decoration: none;
@@ -25,6 +29,8 @@ a {
     align-items: center;
     justify-content: center;
     text-align: center;
+    font-family: 'Square Peg', cursiva;
+    
 }
 
 .main-header h1 {
@@ -34,7 +40,7 @@ a {
 }
 
 .main-header h1 span {
-    color: #b50d10;
+    color: #b50da7;
 }
 
 .main-header p {
@@ -53,11 +59,18 @@ img {
     width: 100%;
 }
 
+.card1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    background: #eb91e281;
+    margin-bottom: 2rem;
+}
 .card {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
-    background: #f1f1f1;
+    background: #eb91e282;
     margin-bottom: 2rem;
 }
 
@@ -79,8 +92,8 @@ img {
 
 .btn {
     display: inline-block;
-    background: #000;
-    color: #fff;
+    background: rgb(216, 21, 197);
+    color: rgb(9, 9, 9);
     padding: 0.8rem 1.8rem;
     margin-top: 2rem;
     cursor: pointer;
