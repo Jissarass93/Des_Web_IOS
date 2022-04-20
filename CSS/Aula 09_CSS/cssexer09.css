@@ -1,16 +1,24 @@
 @charset "UTF-8";
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    
-    background-image: url(Latest\ Attack\ On\ Titan\ Wallpaper\(9\).jpg);
+
+    background-image: url(fundo\ attack.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: center;
+    background-position: cover;
+    background-color: chocolate;
 
 }
 
 img {
-        height: 300px;
+    height: 300px;
 }
 
 .container {
@@ -25,7 +33,7 @@ img {
     padding: 2.0rem;
     border: 2px solid #2c560f;
     border-radius: 12px;
-    background-color: #b7b78d77;
+    background-color: #b7b78d44;
     color: black;
     background-position: right;
     text-align: left;
@@ -53,34 +61,55 @@ h1 {
     padding: 1.4em;
     border: 2px solid #2c560f;
     border-radius: 12px;
-    background-color: #b7b78d77;
-    color: rgb(7, 7, 7);
+    background-color: #b7b78d2f;
+    color: rgb(255, 255, 255);
     display: flex;
     text-align: center;
-
+    text-decoration: none;
 }
 
 .video {
     font-size: 1.2rem;
-    font-weight: 600;
     margin: 1.0rem;
     padding: 1.4em;
     border: 2px solid #2c560f;
-    background-color: #b7b78d77;
     color: rgb(7, 7, 7);
-    display: flex;
-        
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 2rem;
+    background-color: #b7b78d2f;
+    margin-bottom: 2rem;
+    text-align: center;
 }
 
 .bot1 {
-    border: 2px solid #043d4b;
-    font-size: 20px;
-    font-style: italic;
-    padding: 1px; ;
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    padding: 0.9rem 1.9rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    max-height: 500px;
 }
 
+
 .bot2 {
-    border: 2px solid #043d4b;
-    font-size: 20px;
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    padding: 0.9rem 1.9rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
     font-style: italic;
+    color: aliceblue;
+}
+
+.media-object {
+    height: 300px;
+    text-align: right;
 }

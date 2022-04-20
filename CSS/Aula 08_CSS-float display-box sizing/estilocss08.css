@@ -8,7 +8,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     margin: 0;
-    padding: 0;
+    padding: 4em;
 
 }
 img{
@@ -26,7 +26,6 @@ h1 {
     margin-top: 20px;
     line-height: 300% center ;
     font-family: Georgia, "Times New Roman", serif;
-    text-shadow: 3px 3px 5px #cccccc;
     text-align: center;
 }
 
@@ -40,35 +39,35 @@ h2 {
     margin-top: 5px;
 
 }
-.dif{
-     border: black;
-    font-size: 35px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+.velo{
+    border: black;
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
-    color: #0f0b7c;  
+    color: #331f02;  
     padding: 10px 20px;
     border-radius: 20px;
     margin-top: 5px;
-    text-align: center;
+    text-align: right;
 
 }
-/*.Todos {
+.Todos {
     margin-top: 5%;
     border: black;
-    font-size: 18px;
-    text-decoration: none;
-    color: #fffdfb;
-    border: #683e19 10px solid;
+    font-size: 20px;
+    background-color: #79796e8a;
+    color: #161616;
+    border: #683e19 5px solid;
     padding: 2em 20px;
     border-radius: 10px;
     margin-top: 5%;
-}  */
+} 
 
 
 .img1 #Todos {
     float: left;
     font-size: 20px;
-    text-decoration: none;
     color: #0f0f0e;
     border: #6d4f35 4px solid;
     border-radius: 5px;
