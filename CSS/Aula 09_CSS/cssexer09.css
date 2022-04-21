@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 * {
-    margin: 0;
+    margin: 0;  
     padding: 0;
     box-sizing: border-box;
 }
@@ -12,8 +12,10 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: center;
-    background-position: center;
-    background-color: chocolate;
+    background-position: cover;
+    border-left: 7em solid rgb(21, 44, 2);
+    border-right: 7em solid rgba(21, 44, 2);
+    
 
 }
 
@@ -52,7 +54,7 @@ h1 {
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 6em;
-    color: rgb(188, 95, 3);
+    color: #533618;
 }
 
 .fotos {
