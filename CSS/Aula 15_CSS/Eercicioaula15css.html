@@ -5,10 +5,19 @@
     <meta charset="UTF-8">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
-    <title>Encontre sua livraria </title>
+    <title>Encontre sua Livrarias </title>
+
+    <style>
+        body {
+            background-color: rgb(253, 226, 189);
+            margin-left: 5em;
+            margin-right: 5em;
+        }
+    </style>
 </head>
 
 <body>
+
     <!--barra de navegacao / barra de nav expancivel/barra escura fonte clara/e background escuro-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
@@ -31,12 +40,15 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle"
                             href="https://www.google.com/search?rlz=1C1GCEA_enBR995BR995&tbs=lf:1,lf_ui:10&tbm=lcl&q=livrarias+em+sp&rflfq=1&num=10&sa=X&ved=2ahUKEwickJzq8qP3AhXwLLkGHaONCgAQjGp6BAgpEAE&biw=1920&bih=1032&dpr=1#rlfi=hd:;si:;mv:[[-23.4730304,-46.5974587],[-23.5920073,-46.687773299999996]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:10"
-                            id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Endereços
-                        </a>
+                            id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Endereços</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Projeto</a></li>
-                            <li><a class="dropdown-item" href="#">Contato</a></li>
+                            <li><a class="dropdown-item"
+                                    href="https://www.google.com/search?rlz=1C1KNTJ_pt-BRBR1000BR1000&tbs=lf:1,lf_ui:10&tbm=lcl&sxsrf=APq-WBu6p_Aji0Ktcv7P3sUoU6MwvNo33A:1650512285059&q=livrarias+em+sp&rflfq=1&num=10&sa=X&ved=2ahUKEwiU18qznaT3AhV_iJUCHVObAjQQjGp6BAgKEAE&biw=1536&bih=714&dpr=1.25#rlfi=hd:;si:;mv:[[-23.5307572,-46.6315175],[-23.6262547,-46.7468814]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:10">Alguns
+                                    endereços</a></li>
+                            <li><a class="dropdown-item"
+                                    href="https://www.guiadasemana.com.br/na-cidade/galeria/livrarias-imperdiveis-para-conhecer-em-sao-paulo">Especiais</a>
+                            </li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
@@ -50,65 +62,71 @@
             </div>
         </div>
     </nav>
-    <header class="p-5 bg-warning">
+    <header class="p-5 bg-info">
         <div class="container-fluid py-5">
-            <h1 class="display-5 fw-bold">Bem-vindo ao meu Website</h1>
-            <p class="col-md-8 fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-                eligendi vitae atque nesciunt. Ducimus veritatis, praesentium quo delectus u
-                t numquam.</p>
-            <a class="btn btn-primary btn-lg" href="#" role="button">Aprenda Mais</a>
+            <h1 class="display-5 fw-bold">Livrarias em São Paulo</h1>
+            <p class="col-md-8 fs-4">Conheça algumas livrarias especiais espalhadas pela cidade.</p>
+            <a class="btn btn-primary btn-lg"
+                href="https://www.guiadasemana.com.br/na-cidade/galeria/livrarias-imperdiveis-para-conhecer-em-sao-paulo"
+                role="button">Aprenda Mais</a>
         </div>
     </header>
     <!-- Tipografia -->
     <section class="container text-center">
-        <h1 class="pb-2 mt-4 mb-2 border-bottom">Hello, world! <small>Secondary text</small></h1>
-        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,
-            laborum? Placeat non est
-            facere
-            recusandae fugiat voluptatum</p>
-        <p><mark>Lorem ipsum dolor sit amet</mark> consectetur adipisicing elit. Obcaecati,
-            laborum? Placeat non est.
-            Delectus consequuntur <del>laudantium repellat dolorum labore</del> tenetur, <u>
-                voluptatem
-                necessitatibus</u> rerum eveniet. Esse deserunt ducimus atque iure consequat
-            ur at cum reiciendis nihil
-            soluta labore perferendis.</p>
+        <h1 class="pb-2 mt-4 mb-2 border-bottom">Olá! <small>Venham conhecer um pouco sobre as livrarias de São
+                Paulo</small></h1>
+        <p class="lead">Em uma cidade cheia de arte, cultura e gastronomia, não poderiam faltar livrarias
+            cheias de livros sobre tudo isso e muito mais. São Paulo vai muito além de Saraivas e conta com muitas
+            livrarias temáticas, diferentes ou especiais de alguma forma para você passar horas admirando livros e
+            se perder em outros mundos</p>
+        <p><mark>Sempre pensando em te ajudar a explorar o melhor que a cidade tem a oferecer, o Guia da Semana listou
+                10 livrarias imperdíveis para conhecer em . </mark><del>São Paulo</del> tenetur, <u>Confira:
+            </u> </p>
         <hr>
     </section>
     <!-- Alinhamento & Transformação -->
     <section class="container">
-        <p class="text-start text-lowercase">Texto alinhado à esquerda da área de visualização.</p>
-        <!--alinhamento no começo/lowercase Coloca todas as letras em minúsculas -->
-        <p class="text-center text-uppercase">Texto alinhado centralizado na área de visualização.</p>
-        <!--alinhamento  no cetro/ uppercare  Coloca todas as letras em maiúscula-->
-        <p class="text-end">Texto alinhado à direta da área de visualização.</p>
-        <p class="text-nowrap">Texto sem quebra de linha. Lorem ipsum dolor sit amet consectetur, adipisicing e lit.</p>
-        <hr>
-    </section>
-    <section class="container">
-        <!-- Floats -->
-        <div class="float-start">Float no início da área de visualização</div><br>
-        <!--flotar para a esquerda-->
-        <div class="float-end">Float no final da área de visualização</div><br>
-        <!--flotar para a direita-->
-        <div class="float-none">Sem float na área de visualização</div>
-        <!--sem float-->
-        <!-- Limpa o Float -->
-        <div class="clearfix"></div>
-        <hr>
+
+        <p class="text-center text-uppercase">Livraria Zaccara </p>
+        <p class="text-center text-uppercase">Livraria Cultura do Conjunto Nacional</p>
+        <p class="text-center text-uppercase">Banca Tatuí e Sala Tatuí</p>
+        <p class="text-center text-uppercase">Livraria Francesa</p>
+        <p class="text-center text-uppercase">Blooks</p>
+        <p class="text-center text-uppercase">Livraria NoveSete</p>
+        <p class="text-center text-uppercase">Fonomag </p>
+        <p class="text-center text-uppercase">Livraria da Vila</p>
+        <p class="text-center text-uppercase">Livraria Martins Fontes</p>
+        <p class="text-center text-uppercase">Casa Plana</p>
+
+
+
     </section>
     <!-- Blockquuote -->
     <section class="container">
         <blockquote class="blockquote">
             <!--define "uma seção [dentro de um documento] que é citada de outra fonte"-->
-            <p>Patuscada Livraria
-                Numa pequena casa em Pinheiro, não muito longe do Beco do Batman, a Patuscada Livraria é um espaço
+            <p class="bg-danger">Patuscada Livraria</p>
+            <p>
+                Numa pequena casa em Pinheiros, não muito longe do Beco do Batman, a Patuscada Livraria é um espaço
                 cultural que reúne bar, café e já se tornou o point de lançamentos de escritores independentes.
                 Inclusive, o melhor dia para visitar o local é quando está acontecendo algum evento.</p>
             <figcaption class="blockquote-footer">
                 <cite title="Source Title">» Onde: Rua Luís Murat, 40, Pinheiros.</cite>
             </figcaption>
         </blockquote>
+
+        <p class="bg-danger">Livraria Zaccara</p>
+        <p>
+            é um daqueles achados de São Paulo. No jardim, é possível passar algumas horas do dia folheando livros
+            e, no piso superior, assistir a saraus e debates organizados pelos proprietários - e únicos
+            funcionários: o casal Crioula e Lúcio Zaccara, que abordam temas que vão desde a psiquê feminina a
+            cursos que ensinam a ouvir e apreciar jazz. O local ainda conta com um pequeno café, que oferece
+            expressos e bolos deliciosos.
+
+        </p>
+        <figcaption class="blockquote-footer">
+            <cite title="Source Title">Endereço: Rua Cardoso de Almeida, 1356 – Perdizes/cite>
+        </figcaption>
         <hr>
     </section>
     <!-- Listas -->
@@ -126,105 +144,41 @@
             <li class="list-inline-item">Item três</li>
             <li class="list-inline-item">Item quatro</li>
         </ul> -->
-    <ol>
-        <button class="btn btn-primary"><li>Zaccara</li></button>
-        <button class="btn btn-secondary"><li>NoveSete</li></button>
-        <button class="btn btn-success">Success</button>
-        <button class="btn btn-info"><li>Blooks</li></button>
-        <button class="btn btn-warning">><li>Livraria do Alto</li></button>
-        <button class="btn btn-danger">          <li>Livraria da Vila – JK Iguatemi</li>
-        </button>
-        <button class="btn btn-dark">
-            <li>Banca Tatuí</li>
-        </button>
-        <button class="btn btn-light">
-            <li>Suburbano Convicto</li>
-        </button>
-        <button class="btn btn-link">
-            <li>Haikai</li>
-        </button>
-        <button class="btn btn-primary">
-            <li>
-            <li>Livraria Cultura – Iguatemi</li>
-            </li>
-        </button>
-
-
-
-
-
-
-
+    <ol class="text-start text-lowercase float-none">
+        <li><button class="btn btn-primary">Zaccara</button></li>
+        <li><button class="btn btn-secondary">NoveSete</button></li>
+        <li><button class="btn btn-success">Success</button></li>
+        <li><button class="btn btn-info">Blooks</button></li>
+        <li><button class="btn btn-warning">Livraria do Alto</button></li>
+        <li><button class="btn btn-danger">Livraria da Vila – JK Iguatemi</button></li>
+        <li><button class="btn btn-dark">Banca Tatuí</button></li>
+        <li><button class="btn btn-light">Suburbano Convicto</button></li>
+        <li><button class="btn btn-link">Haikai</button></li>
+        <li><button class="btn btn-primary">Livraria Cultura – Iguatemi</button></li>
 
     </ol>
     <hr>
     </section>
-    <!-- Código -->
-    <section class="container">
-        <code>&lt;h1&gt;Heading Text&lt;/h1&gt;</code>
-        <br><br>
-        Mude de diretório com o comando <kbd>cd</kbd>
-        <br><br>
-        Para acessar as configurações de edição, pressione <kbd><kbd>ctrl</kbd> + <kbd>,</kb d></kbd>
-            <hr>
-    </section>
-    <section class="container">
-        <!-- Cores textuais -->
-        <p class="text-primary">Olá Mundo com a cor do texto: text-primary</p>
-        <p class="text-success">Olá Mundo com a cor do texto: text-success</p>
-        <p class="text-info">Olá Mundo com a cor do texto: text-info</p>
-        <p class="text-warning">Olá Mundo com a cor do texto: text-warning</p>
-        <p class="text-danger">Olá Mundo com a cor do texto: text-danger</p>
-        <p class="text-muted">Olá Mundo com a cor do texto: text-muted</p>
-        <p class="text-black-50">Olá Mundo com a cor do texto: text-black-50</p>
-        <!-- Cores de plano de fundo -->
-        <p class="bg-primary">Olá Mundo com a cor de fundo: bg-primary</p>
-        <p class="bg-success">Olá Mundo com a cor de fundo: bg-success</p>
-        <p class="bg-info">Olá Mundo com a cor de fundo: bg-info</p>
-        <p class="bg-warning">Olá Mundo com a cor de fundo: bg-warning</p>
-        <p class="bg-danger">Olá Mundo com a cor de fundo: bg-danger</p>
-        <p class="bg-muted">Olá Mundo com a cor de fundo: bg-muted</p>
-        <!-- Combinação dos estilos -->
-        <p class="text-white bg-dark">Olá Mundo com a cor do texto: text-white, e a cor do fundo: bg-dark</p>
-        <p class="text-white-50 bg-success">Olá Mundo com a cor do texto: text-white-50, e a cor do fundo: bg-success
-        </p>
-        <hr>
-    </section>
-    <section class="container">
-        <!-- Botões -->
-        <button class="btn btn-outline-secondary">Botão Um</button>
-        <a href="#" class="btn btn-outline-secondary" role="button">Botão Dois</a>
-        <input type="submit" class="btn btn-outline-secondary" value="Enviar">
-        <br><br>
-        <!-- Botões Contextuais -->
-        <button class="btn btn-primary">Primary</button>
-        <button class="btn btn-secondary">Secondary</button>
-        <button class="btn btn-success">Success</button>
-        <button class="btn btn-info">Info</button>
-        <button class="btn btn-warning">Warning</button>
-        <button class="btn btn-danger">Danger</button>
-        <button class="btn btn-dark">Dark</button>
-        <button class="btn btn-light">Light</button>
-        <button class="btn btn-link">Link</button>
-        <br><br>
-        <!-- Tamanho de Botões -->
-        <button class="btn btn-outline-secondary btn-lg">Botão Um</button>
-        <button class="btn btn-primary btn-sm">Primary</button>
-        <button class="btn btn-secondary" disabled="disabled">Secondary</button>
-        <br><br>
-        <!-- Efeito dos botões -->
-        <button type="button" class="btn btn-outline-primary">Primary</button>
-        <button type="button" class="btn btn-outline-secondary">Secondary</button>
-        <button type="button" class="btn btn-outline-success">Success</button>
-        <button type="button" class="btn btn-outline-danger">Danger</button>
-        <button type="button" class="btn btn-outline-warning">Warning</button>
-        <button type="button" class="btn btn-outline-info">Info</button>
-        <button type="button" class="btn btn-outline-light">Light</button>
-        <button type="button" class="btn btn-outline-dark">Dark</button>
+
+    <section>
+        <nav>
+            <a button
+                href="https://www.google.com/maps/place/Livraria+Zaccara/@-23.541802,-46.6738017,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce578ab52df6ff:0x8ccbe5f4bb9ff124!8m2!3d-23.5418374!4d-46.6715625"
+                type="button" class="btn btn-outline-primary">Zaccara</a>
+            <a button
+                href="https://www.google.com/maps/place/Livraria+NoveSete/@-23.5856335,-46.6398864,17z/data=!3m1!4b1!4m5!3m4!1s0x9461e0fb2cb6c8a5:0xb86d51feab5760f0!8m2!3d-23.5856413!4d-46.6376923"
+                type="button" class="btn btn-outline-secondary">NoveSete</a>
+                <a button href="" type="button" class="btn btn-outline-success"> Livraria Cultura do Conjunto Nacional </button>
+                <button type="button" class="btn btn-outline-danger">Danger</button>
+                <button type="button" class="btn btn-outline-warning">Warning</button>
+                <button type="button" class="btn btn-outline-info">Info</button>
+                <button type="button" class="btn btn-outline-light">Light</button>
+                <button type="button" class="btn btn-outline-dark">Dark</button>
+        </nav>
         <hr>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script> -->
 
 </html>
