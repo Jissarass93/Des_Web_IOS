@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+body {
+    background-color: rgb(225, 173, 223);
+    color: #001;
+    font-family: verdana;
+}
+
+h1 {
+    background-color: pink;
+    color: rgb(72, 30, 150);
+    font-family: Courier, "Lucida Console", monospace;
+    font-weight: 800%;
+    font-size: 300px #d87fb0;
+    font-style: oblique;
+    text-align: center;
+
+}
+
+h2 {
+    background-color: rgb(224, 208, 211);
+    color: rgb(2, 2, 2);
+    font-family: sans-serif;
+    font-weight: 800%;
+    font-size: 150px #8c1255;
+    font-style: italic;
+    text-align: left;
+}
+
+
+#terror {
+    background-color: #6d3cf5;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    text-shadow: 25px;
+    font-size: 20px;
+}
+
+#romance {
+    background-color: #d032a6;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    text-shadow: 25px;
+    font-size: 20px;
+}
+
+#acao {
+    background-color: #ec6758;
+    color: black;
+    font-family: Georgia, "Times New Roman", serif;
+    text-align: left;
+    text-shadow: 25px;
+    font-size: 20px;
+}
+
+footer {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    font-style: italic;
+    text-align: center;
+}
