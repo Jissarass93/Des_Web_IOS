@@ -3,7 +3,7 @@
 body {
     background-color: #ffffb3;
     color: #681b1b;
-    background-image: url(img\castlevania wallpaper 045 - 1536x2732.jpg);
+    background-image: url(img/fundo2.jpg);
     background-size: cover;
     background-repeat: space repeat;
     background-attachment: fixed;
@@ -21,7 +21,7 @@ p {
     color: rgb(3, 3, 3);
 }
 h1 {
-    background-color: #ffcc009a;
+    background-color: #000000ba;
     color: rgb(255, 255, 255);
     text-align: center;
     font-style: italic;
@@ -33,7 +33,7 @@ h1 {
 img {
     height: 340px;
     width: 620px;
-    border: 5px #d42626b8 solid;
+    border: 5px #161414b8 solid;
    
 }
 .src {
@@ -57,29 +57,35 @@ h2 {
     text-align: left auto;
 }
 .bot1{
-    border: 2px solid #043d4b;
+    border: 2px solid #172c31;
     font-size: 20px;
-    background-color: #ece363c5;
+    background-color: #605f57c5;
+    color: aliceblue;
     font-style: italic;
+    float: right;
 }
+
 .bot2{
     border: 2px solid #043d4b;
     font-size: 20px;
-    background-color: #ece363c5;
-    font-style: italic;
+    background-color: #605f57c5;
+    font-style:italic;
+    float: right;
 }
 .bot3{
     border: 2px solid #043d4b;
     font-size: 20px;
-    background-color: #ece363c5;
+    background-color: #605f57c5;
     font-style: italic;
+    float: right;
 }
 footer {
     
-
+color: blanchedalmond;
   bottom: 0;
   left: 0;
   height: 40px;
   position: fixed;
   width: 100%;
+  text-align: center;
 }
