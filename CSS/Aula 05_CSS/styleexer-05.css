@@ -58,15 +58,17 @@ img {
     margin-top: 20px;
     /* background-color: rgba(170, 168, 165, 0.534); */
 }
-h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: left auto;
+figcaption {
+    text-align: center;
+    font-size: 25px;
+    background-color: #b43f1147;
+    color: white;
 }
 .bot1 {
     border: 3px groove #b43f11;
     font-size: 20px;
     background-color: #605f57c7;
-    color: rgb(105, 4, 4);
+    color: rgb(247, 240, 240);
     font-style: italic;
     text-align: center;
     text-decoration: none;
