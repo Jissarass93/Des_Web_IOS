@@ -1,40 +1,45 @@
 @charset "utf-8";
 
-body {
-    background-color: #ffffb3;
-    color: #681b1b;
+body {    
     background-image: url(img/fundo2.jpg);
     background-size: cover;
     background-repeat: space repeat;
     background-attachment: fixed;
-    width: auto;
-
-}
+    font-family: 'Cardo';
+    margin: 0;
+    padding: 0;
+   }
 
 header {
     padding: 3em;
+    display: flow-root;
 }
-
+ h2{
+     font-size:3em ;
+     text-shadow: 0 0 0.1em rgb(250, 248, 248), 0 0 0.1em rgb(255, 255, 255);
+     color: #681b1b;
+     text-align: left;
+ }
 p {
     font-size: 1.4em;
-    background-color: rgba(170, 168, 165, 0.534);
-    color: rgb(3, 3, 3);
+    color: rgb(252, 248, 248);
+    text-shadow: 0 0 0.1em rgb(14, 13, 13), 0 0 0.1em rgb(10, 10, 10);
+    font-family: 'Cardo';
 }
 h1 {
-    background-color: #000000ba;
-    color: rgb(255, 255, 255);
+     color: rgb(0, 0, 0);
     text-align: center;
+    text-shadow: 0 0 0.2em rgb(211, 208, 13), 0 0 0.2em #F87;
     font-style: italic;
-    line-height: 100%;
-    font-family: Georgia, “Times New Roman”, serif;
-    padding: 1.4em;
+    font-size: 5em;    
+    font-family: 'Cardo';    
+        
 }
 
 img {
     height: 340px;
     width: 620px;
     border: 5px #161414b8 solid;
-   
 }
 .src {
     text-align: center;
@@ -43,49 +48,38 @@ img {
 }
 .list {
     text-align: left;
-    color: #050505;
+    text-shadow: 0 0 0.1em rgb(14, 13, 13), 0 0 0.1em rgb(10, 10, 10);
+    color: #ffffff;
     font-style: normal;
-    font-size: 18px;
+    font-size: 28px;
     margin-top: 10%;
     padding: 10px 20px;
     border-radius: 10px;
     margin-top: 20px;
-    background-color: rgba(170, 168, 165, 0.534);
+    /* background-color: rgba(170, 168, 165, 0.534); */
 }
 h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: left auto;
 }
-.bot1{
-    border: 2px solid #172c31;
+.bot1 {
+    border: 3px groove #b43f11;
     font-size: 20px;
-    background-color: #605f57c5;
-    color: aliceblue;
+    background-color: #605f57c7;
+    color: rgb(105, 4, 4);
     font-style: italic;
-    float: right;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Cardo';
+    border-radius: 15px;
 }
 
-.bot2{
-    border: 2px solid #043d4b;
-    font-size: 20px;
-    background-color: #605f57c5;
-    font-style:italic;
-    float: right;
-}
-.bot3{
-    border: 2px solid #043d4b;
-    font-size: 20px;
-    background-color: #605f57c5;
-    font-style: italic;
-    float: right;
-}
 footer {
-    
-color: blanchedalmond;
-  bottom: 0;
-  left: 0;
-  height: 40px;
-  position: fixed;
-  width: 100%;
-  text-align: center;
+    color: blanchedalmond;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+    text-align: center;
 }

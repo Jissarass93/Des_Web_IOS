@@ -1,9 +1,10 @@
 @charset "UTF-8";
 
 body {
-    background-image: url(einstem.jpg);
+    background-image: url(img/Albert-Einstein-PNG-File-Download-Free.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #756f6faf;
     height: 100vh;
     color: whitesmoke;
     width: 100%;
@@ -48,20 +49,14 @@ section {
     text-align: left;
 }
 
-nav {
-    text-align: left;
+.bot{
     font-size: 1rem;
     color: rgb(84, 7, 7);
+    border-style: groove;
+    
 }
 
-a {
-    border: 0.4rem;
-    border-style: groove;
-    color: rgb(72, 69, 69);
-    padding: 0.7em;
-    margin: 2ch;
-    text-decoration: none;
-}
+
 
 h2 {
     font-size: 80%;
