@@ -1,0 +1,18 @@
+f) Yara mora no 4º andar e tem um cachorro.
+
+(OR) (END) (NOT)
+ V     V    F 
+ V     F    F 
+ V     F    V 
+ F     F    V 
+
+ o gato no sótão
+ o rato está no quarto
+
+ 	    (AMIGA1)	(AMIGA2)	 (AMIGA3)	  (AMIGA4)
+NOME    Raquel	     Viviam       sofi	        Ana
+FPS	     45 	      55	      40	        50
+MAIO	branco	     azul	      rosa	       verde
+IDADE	11anos	    10anos	     9anos	      8 anos
+ANIMAL	gatos	    passaro	    cachorro       peixe
+SUCO	laranja	    limonada    maracuja	  morango
