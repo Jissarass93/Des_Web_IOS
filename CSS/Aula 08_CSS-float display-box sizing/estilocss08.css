@@ -17,17 +17,15 @@ img {
 }
 
 h1 {
-    color: #e6e6fa;
-    font-size: 40px;
+    font-size: 80px;
     text-decoration: none;
     color: #171615;
-    border: #f3a867 1px oblique;
     padding: 10px 20px;
     border-radius: 10px;
     margin-top: 20px;
-    line-height: 300% center;
     font-family: Georgia, "Times New Roman", serif;
     text-align: center;
+    text-shadow: 0 0 0.2em rgb(211, 76, 13), 0 0 0.2em #F87;
 
 }
 
@@ -136,6 +134,7 @@ figcaption {
     padding: 0.8rem 1.8rem;
     margin-top: 2rem;
     cursor: pointer;
-    border:#683e19 solid 
+    border:#683e19 solid ;
+    text-decoration: none;
 
 }
