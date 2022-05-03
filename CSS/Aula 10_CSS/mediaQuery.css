@@ -2,19 +2,40 @@
 
 body {
     font-family: "Tahoma", sans-serif;
-    background: #333;
+    background: rgba(239, 171, 244, 0.653);
     color: #fff;
+    
+}
+h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 600%;
+    color: blueviolet;
 }
 
 h2 {
     text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 300%;
+    color: rgb(185, 15, 162);
 }
 
 .col {
+    
+    float: right;
+    width: 30%;
+    padding: 8px;
+    box-sizing: border-box;
+    align-items: center;
+    
+}
+.col2 {
+    
     float: left;
     width: 30%;
     padding: 8px;
     box-sizing: border-box;
+    align-items: center;
 }
 
 .price-box {
@@ -32,14 +53,19 @@ h2 {
     font-size: 25px;
 }
 
-.price-box .header.header-green {
-    background: #4caf50;
+.p {
+    font-size: 0.5em;
+    text-align: center;
+    color: rgb(161, 19, 161) ;
 }
+
+
 
 .price-box li {
     padding: 20px;
     border-bottom: 20px solid #eee;
     text-align: center;
+    color: rgb(93, 35, 123);
 }
 
 .btn {
@@ -50,6 +76,11 @@ h2 {
     text-align: center;
     text-decoration: none;
     font-size: 18px;
+}
+.img{
+
+    text-align: center;
+    border: 4px solid #565756;
 }
 
 @media(max-width:768px) {

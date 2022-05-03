@@ -1,0 +1,23 @@
+        EXERCÍCIO 2
+
+Calculo mediana 
+{8,9,7,6}
+mediana = (9+7)/2=8
+
+mediana=8 maior que a média 07
+           
+           EXERCÍCIO 3
+
+fluxograma (bolo de chocolate)
+
+Primeiro passo (separar ingredientes e utensilios) 
+
+Mistura -01(ovos+leite+manteiga)Bater 5 minutos 
+
+Mistura-02(açucar+farinha+cacau em pó+fermento)misturar 
+
+Preparação (untar a forma) 
+
+Cozimento (50 min/190°C) 
+
+Resfriamento (2 horas/25°C) 
