@@ -1,10 +1,4 @@
-        EXERCÍCIO 2
 
-Calculo mediana 
-{8,9,7,6}
-mediana = (9+7)/2=8
-
-mediana=8 maior que a média 07
            
            EXERCÍCIO 3
 
