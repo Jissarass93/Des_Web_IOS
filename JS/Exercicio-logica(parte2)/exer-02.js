@@ -9,5 +9,5 @@ var reajuste = salario + aumento;
 var valor = reajuste. toLocaleString('pt-br',{style: 'currency', currency: 'BRL'});
 
 
-const hello = `O salário era: ${dinheiro}  ouve um percentual de reajuste no valor de ${real} , e seu valor atual é ${valor} `;
-console.log(hello)
+const hello = `O salário era: ${dinheiro}  ouve um percentual de reajuste no valor de ${real} , e seu valor atual é ${valor}`;
+console.log(hello);
