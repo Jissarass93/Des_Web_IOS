@@ -7,4 +7,4 @@ var valor = custo * (porcentagem + imposto)
 
 var valorTotal = custo + valor
 
-console.log(`${valortotal}`)
+console.log(`${valorTotal.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})}`)
