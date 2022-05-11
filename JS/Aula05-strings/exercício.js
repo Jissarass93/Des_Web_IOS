@@ -17,7 +17,18 @@
 // resultado será a palavra "multiverso".
 // e) Exibe no console.log a String toda em Maiúsculo.
 
-var lerolero = "Dr Stephen Strange lança um feitiço proibido que abre um portal para o multiverso. No entanto, surge uma ameaça que pode ser grande demais para sua equipe lidar."
-console.log('O ' + (lerolero));
+var leroLero = 'Dr Stephen Strange lança um feitiço proibido que abre um portal para o multiverso. No entanto, surge uma ameaça que pode ser grande demais para sua equipe lidar.'
+console.log(leroLero[0]);
 
-console.log(string3.length)
+var tamanho = (leroLero.length)
+console.log(` O resultado da string é : ${tamanho}`)
+
+
+var trocastring = leroLero.replace('Dr Stephen Strange','Feiticeira Escarlate');
+console.log(trocastring);
+
+var separarString = leroLero.split(' ')
+console.log(separarString)
+console.log('Essa é a string de retorno da posição 13: '+ separarString[13])
+
+console.log(leroLero.toUpperCase())
