@@ -53,8 +53,34 @@ let profhelo = 1;
 //     console.log(`Nome: ${frutas[j]}`)
 // }
 
-const carros =['fusca','corolla','Discovery','renegade','foccus','hilux','tuscon','etios']
+// const carros =['fusca','corolla','Discovery','renegade','foccus','hilux','tuscon','etios']
 
-for(let d =0; d< carros.length; d+=2){
-    console.log(`Nome do carro: ${carros[d]}`)
+// for(let d =0; d< carros.length; d+=2){
+//     console.log(`Nome do carro: ${carros[d]}`)
+// }
+
+// Array de objetos e laços
+console.clear();
+const todos = [
+{
+id: 1,
+text: 'Take out trash',
+isCompleted: true,
+},
+{
+id: 2,
+text: 'Meeting with boss',
+isCompleted: true,
+},
+{
+id: 3,
+text: 'Dentist appt',
+isCompleted: false,
+},
+];
+// For overloop
+for (let t of todos) {
+console.log(t);
+console.log(t.text);
+console.log(t.id);
 }
