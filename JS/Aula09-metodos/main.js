@@ -94,14 +94,14 @@ const Alunos = [
      ]
 
 
-     Alunos.forEach((nomes) => console.log(nomes.Nome))
+     Alunos.forEach((nomes) => console.log(nomes.Nome));
 
-     console.log(
-            Alunos.filter((nota) =>{
-                return Alunos.nota === 6
-            })
-         )
+     const notas= [7, 4, 8, 9];
 
+      let filternotas = notas.filter((valor) => {
+         return valor >= 6 ;
+      })
+         console.log(filternotas);
 
 
 
