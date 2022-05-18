@@ -10,13 +10,14 @@
 
 const valores = [17, 43, 8, 4, 97, 56, 29, 60]
 
-// valores.forEach(posicao);
+valores.forEach(posicao);
 
-// function posicao(index, item , ) {
-//     console.log(`Indice: ${item}`);
-//     console.log(`Elemento: ${index}`)
-// }
+function posicao(item, index ) {
+    console.log(`Indice: ${index}`);
+    console.log(`Elemento: ${item}`);
+    if(item % 2 === 0) {
+        console.log("O número é par");
+    }
 
-if(valores % 2 === 0) {
-    console.log("O número é par");
 }
+
