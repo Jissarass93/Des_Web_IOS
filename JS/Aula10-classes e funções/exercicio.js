@@ -48,19 +48,19 @@ pessoas[9] = new pessoa('Gael', new Date(1960, 10, 29));
 
 
 // console.log(pessoas[1].getIdade())
-function niver(){
-    if(dataHoje.getMonth() < this.dataNascimento.getMonth() || (dataHoje.getMonth() == this.dataNascimento.getMonth() && dataHoje.getDate() < this.dataNascimento.getDate())) {
+function niver() {
+    if (dataHoje.getMonth() < this.dataNascimento.getMonth() || (dataHoje.getMonth() == this.dataNascimento.getMonth() && dataHoje.getDate() < this.dataNascimento.getDate())) {
         return false
     }
     return true
 
 }
-pessoa.prototype.getNiver = niver
+pessoa.prototype.getNiver = niver;
 
-console.log(pessoas[0].getNiver())
+console.log(pessoas[1].getNiver());
 
-pessoas.forEach((pessoa1)=>{
-    pessoa1.getIdade()
+pessoas.forEach((p) => {
+    console.log(p.getIdade());
 
-    pessoa1.getNiver()
-})
+    console.log(p.getNiver());
+});
