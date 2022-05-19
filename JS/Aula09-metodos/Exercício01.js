@@ -15,8 +15,12 @@ function posicao(item, index) {
 
 }
 
- var filtro = valores.filter((valor) => {
-   return valor <= 18 ;
+var filtro = valores.filter((valor) => {
+    return valor <= 18;
 })
-    console.log(filtro);
+
+console.log(filtro);
+
+const media = [5, 6, 9, 7]
+let soma3 = 0;
 

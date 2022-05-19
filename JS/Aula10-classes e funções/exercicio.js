@@ -1,14 +1,3 @@
-// Criar uma classe pessoa com as propriedades nome e
-// dataNascimento e o método getIdade() e um array de
-// pessoas com 10 posições, instanciar a classe pessoa em
-// cada índice do array, adicionar o método getNiver() por
-// prototype que retorna true se já fez aniversário e false se
-// ainda não fez no ano corrente, exibir o texto “Fulano tem X
-// anos e já/ainda não fez aniversário esse ano” para cada
-// pessoa do array (Utilizar If e For).
-// getMonth() retorna o mês de uma data (0 a 11)
-// getDate() retorna o dia do mês de uma data (1 a 31)
-
 class pessoa {
     constructor(nome, dataNascimento) {
         this.nome = nome;
@@ -23,13 +12,7 @@ class pessoa {
         return idade
     }
 
-
-    // getNiver() {
-    //     if (dataHoje.getMonth() <= this.dataNascimento.getMonth() && dataHoje.getDate() < this.dataNascimento.getDate()) {
-    //         return false
-    //     }
-    //     return true
-    // }
+    
 }
 
 const dataHoje = new Date()
@@ -57,10 +40,11 @@ function niver() {
 }
 pessoa.prototype.getNiver = niver;
 
-console.log(pessoas[1].getNiver());
+// console.log(pessoas[1].getNiver());
 
 pessoas.forEach((p) => {
-    console.log(p.getIdade());
+    console.log(`${p.nome} tem idade: ${p.getIdade()} anos`);
 
-    console.log(p.getNiver());
+    console.log(`${p.nome} já fez aniversário ? ${p.getNiver()}`);
 });
+

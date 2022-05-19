@@ -17,21 +17,27 @@ const Alunos =  [
         {Nome: 'Brenno', idade:19, nota: 6, ano: '3°C' },
 
         {Nome: 'Maria', idade:14, nota: 4, ano: '1°F' },
-       
-        
+              
         
     ]
-
-    function retorno(Nome, ano) {
-        console.log(`Nome: ${Alunos.Nome}`);
-        console.log(`ano: ${Alunos.ano}`);}
     
-    //     if (item % 2 == 0) {
-    //         console.log("Nome")
-    //     }
-    //     else { console.log("O numero é impar") }
-    
-    
-    // }
-
+    Alunos.forEach((retorno) => {
+        console.log(retorno.Nome,' nota:',retorno.nota)
         
+    })
+
+var totalNotas = 0
+    for (let i = 0; i < Alunos.length; i++) {
+        totalNotas += Alunos[i].nota;
+    }
+    
+
+    totalNotas = totalNotas/ Alunos.length
+
+    console.log(totalNotas)
+
+    if (totalNotas >= 7) {
+        console.log("Estão na média")
+    }
+    else { console.log("Estão abaixo da média")
+}
