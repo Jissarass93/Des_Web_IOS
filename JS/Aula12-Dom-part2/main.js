@@ -57,4 +57,7 @@ let ul = document.getElementById('items');
 ul.style.listStyle = 'nome';
 ul.style.listStyle = 'decimal inside';
 
+let teste = document.getElementById('items');
+let teste1 = teste.getElementsByTagName('li');
+console.log(teste1);
 
