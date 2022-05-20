@@ -26,3 +26,35 @@ items[1].style.padding = '.5rem'
 for(let i= 0; i < items.length; i++){
     items[i].style.backgroundColor = '#CCCCC9'
 }
+
+// Metodo getElementByTagName
+let li = document.getElementsByTagName('li');
+console.log(li)
+for(let i =0; i < li.length; i+=2){
+    li[i].style.backgroundColor = 'pink'
+}
+
+//metodo getElementBayName
+let nome =  document.getElementsByName('fitem');
+console.clear()
+console.log(nome);
+nome[0].textContent = 'Pose de Quebrada';
+nome[0].style.backgroundColor = '#BAC1FB';
+nome[1].textContent = 'RECEBAA';
+nome[1].style.backgroundColor = 'yellow';
+
+//remover conteudo
+let item2 = document.getElementById('item2');
+item2.remove();
+
+//inserir um valor
+let lista = document.getElementById('items');
+let item1 = document.getElementById('item1');
+lista.insertBefore(item2,item1.nextElementSibling);
+
+//Alterar estilo da lista
+let ul = document.getElementById('items');
+ul.style.listStyle = 'nome';
+ul.style.listStyle = 'decimal inside';
+
+
