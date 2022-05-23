@@ -47,4 +47,4 @@ function display_image(src) {
     document.body.appendChild(a);
 }
 
-btn1.addEventListener('B_01', display_image(a.src))
+btn1.addEventListener('', display_image(a.src))
