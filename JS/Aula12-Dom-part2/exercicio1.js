@@ -40,7 +40,7 @@ for (let i = 0; i < btns.length; i++) {
     btns[i].style.padding = '.5rem';
     btns[i].style.margin = '.7rem';
     btns[i].style.backgroundColor = '#D9BC66';
-    
+
 }
 
 
@@ -68,14 +68,22 @@ function display_nome() {
 
 
 function display_numero() {
+
+
     var numero = prompt('coloque um numero');
     var titulo = document.createElement('h2');
     titulo.innerText = 'Tabuada';
-    document.body.appendChild(titulo)
+    document.body.appendChild(titulo)    
 
-    for (let contador = 1; contador <=10 ; contador++){
+    for (let contador = 1; contador <= 10; contador++) {
         var soma = document.createElement('p')
-        soma.innerText= `${numero} X ${contador} = ${numero*contador}`
+        soma.innerText = `${numero} X ${contador} = ${numero * contador}`
         document.body.appendChild(soma)
     }
+
+    
 }
+
+// var erro = prompt('ERRO coloque um valor numerico')
+//     if (erro % 2 == 0 && !isNaN(erro)) console.log(`${numero}`);
+//     else console.log(`${erro}`)
