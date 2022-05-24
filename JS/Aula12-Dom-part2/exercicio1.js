@@ -71,9 +71,16 @@ function display_numero() {
 
 
     var numero = prompt('coloque um numero');
+    numero = parseInt(numero)
+
+    if (isNaN(numero)) {
+        alert('ERRO coloque um valor numerico')
+        return
+    }
+
     var titulo = document.createElement('h2');
     titulo.innerText = 'Tabuada';
-    document.body.appendChild(titulo)    
+    document.body.appendChild(titulo)
 
     for (let contador = 1; contador <= 10; contador++) {
         var soma = document.createElement('p')
@@ -81,9 +88,6 @@ function display_numero() {
         document.body.appendChild(soma)
     }
 
-    
+
 }
 
-// var erro = prompt('ERRO coloque um valor numerico')
-//     if (erro % 2 == 0 && !isNaN(erro)) console.log(`${numero}`);
-//     else console.log(`${erro}`)
