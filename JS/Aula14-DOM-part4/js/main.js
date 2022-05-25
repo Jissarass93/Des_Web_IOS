@@ -28,14 +28,14 @@ function onSubmit(e) {
         const li = document.createElement('li');
         li.appendChild(
             document.createTextNode(
-                `${nameInput.value} : ${emailInput.value} : ${horario.value}`
+                `${nameInput.value} : ${emailInput.value} : ${dataNasc.value}`
             )
         );
         userList.appendChild(li);
         // Limpa o formulário
         nameInput.value = '';
         emailInput.value = '';
-        horario.getElementsByTagName('option')[0].selected = 'selected';
+        dataNasc.getElementsByTagName('')[0].selected = 'selected';
         nameInput.focus(); //Coloca o foco no elmento
     }
 }

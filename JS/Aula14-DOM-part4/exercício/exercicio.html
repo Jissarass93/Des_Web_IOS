@@ -10,10 +10,10 @@
 </head>
 
 <body>
-
+    <h1>Bem vindo</h1>
     <section class="container">
         <form id="usuario" action="mailto:jissarassantana@gmail.com" name="Cadastro">
-            <h1>Cadastro</h1>
+            <h2>Cadastro</h2>
             <div class="form1">
                 <div>
                     <label for="name">Nome:</label>
@@ -35,9 +35,10 @@
                 </div>
             </div>
 
-            <button class="btn" type="submit" value="Incluir" id="incluir" />Incluir</button>
-            <button class="btn" type="submit" value="Excluir" id="excluir"  />Excluir</button>
+            <button class="btn" type="submit" value="Incluir" id="incluir" onclick="incluirPessoa()" />Incluir</button>
+            <button class="btn" type="submit" value="Excluir" id="excluir" onclick="incluirPessoa()" />Excluir</button>
         </form>
+        <ul id="users"></ul>
 
         <script src="./exercicio.js"></script>
 

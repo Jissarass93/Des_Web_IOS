@@ -10,9 +10,27 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: normal;
     text-align: center;
+    background-image: url("./img/fundo.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-h1 {
+.container {
+    margin: auto;
+    width: 500px;
+    overflow: auto;
+    padding: 3rem 2rem;
+    border:solid 3px rgb(55, 44, 44);
+    background-color: cornflowerblue;
+}
+h1{
+    text-align: center;
+    color: rgb(167, 102, 228);
+    font-size: 50px;
+    text-shadow: 0 0 0.1em rgb(5, 5, 5), 0 0 0.1em rgb(22, 21, 21);
+}
+
+h2 {
 font-size: 30px;
 text-align: center;
 color: darkblue;
@@ -33,15 +51,14 @@ color: darkblue;
     border-radius: 5px;
     border: 1px solid #ccc;
 }
-
-#usuario {
-    width: 20%;
+#usuario input[type='date'] {
+    width: 100%;
     padding: 8px;
     margin-bottom: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
-    text-align: center;
 }
+
 
 .btn {
     border: 3px groove #dacbcb46;
@@ -50,7 +67,7 @@ color: darkblue;
     color: rgb(15, 14, 14);
     padding: 5px 10px;
     font-style: italic;
-    text-align: left;
+    text-align: center;
     text-decoration: none;
     font-family: 'arial';
     border-radius: 15px;
