@@ -16,18 +16,20 @@ body {
 }
 
 .container {
-    margin: auto;
+    margin:auto ;
     width: 500px;
     overflow: auto;
     padding: 3rem 2rem;
     border:solid 3px rgb(55, 44, 44);
     background-color: cornflowerblue;
+    margin-top: 5em;
 }
 h1{
     text-align: center;
     color: rgb(167, 102, 228);
     font-size: 50px;
     text-shadow: 0 0 0.1em rgb(5, 5, 5), 0 0 0.1em rgb(22, 21, 21);
+    background-color: rgba(33, 1, 41, 0.877);
 }
 
 h2 {
@@ -36,7 +38,7 @@ text-align: center;
 color: darkblue;
     
 }
-#usuario input[type='text'] {
+#formulario input[type='text'] {
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
@@ -44,14 +46,14 @@ color: darkblue;
     border: 1px solid #ccc;
 }
 
-#usuario input[type='number'] {
+#formulario input[type='number'] {
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
 }
-#usuario input[type='date'] {
+#formulario input[type='date'] {
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;

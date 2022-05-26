@@ -28,7 +28,7 @@ function onSubmit(e) {
         const li = document.createElement('li');
         li.appendChild(
             document.createTextNode(
-                `${nameInput.value} : ${emailInput.value} : ${dataNasc.value}`
+                `${nameInput.value} : ${emailInput.value} : ${horario.value}`
             )
         );
         userList.appendChild(li);
