@@ -10,11 +10,11 @@
 
 titulo.innerHTML = 'Exercício DOM-parte-2';
 
-var btns = document.querySelector('B_12');
-var btn1 = document.querySelector('B_01');
-var btn2 = document.querySelector('B_02');
-var btn3 = document.querySelector('B_03')
-var btn4 = document.querySelector('B_04')
+var btns = document.querySelector('.B_12');
+var btn1 = document.querySelector('#B_01');
+var btn2 = document.querySelector('#B_02');
+var btn3 = document.querySelector('#B_03')
+var btn4 = document.querySelector('#B_04')
 
 
 for (let i = 0; i < btns.length; i++) {
@@ -26,19 +26,15 @@ for (let i = 0; i < btns.length; i++) {
 }
 
 
-function display_image(src) {
+function display_imagem(src) {
     var a = document.createElement("img");
     a.src = './img/umbrella-academy.jpeg';
     document.body.style.backgroundColor = '#262525'
     document.body.style.color = 'white'
     document.body.appendChild(a);
-    
+    console.log('mostrar imagem')
 }
     
-
-btn1.addEventListener('', display_image(a.src))
-
-
 
 function display_nome() {
     var usuario = prompt('Escreva seu nome');
@@ -76,5 +72,5 @@ function display_numero() {
 }
 function display_reset() {
     
-reset
+
 }

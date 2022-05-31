@@ -1,0 +1,10 @@
+Com suas palavras explique o que é:
+React;
+Diferença de biblioteca e Framework;
+Props;
+hooks;
+Componentes;
+Coloque todas as suas reposta em um arquivo TXT e abaixo de cada 
+resposta insira os links que você utilizou para elaborar e entender o 
+conteúdo suba no GitHub na pasta da aula de hoje e disponibilize o link 
+na plataforma do IOS
