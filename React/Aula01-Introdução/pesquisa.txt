@@ -8,3 +8,38 @@ Coloque todas as suas reposta em um arquivo TXT e abaixo de cada
 resposta insira os links que você utilizou para elaborar e entender o 
 conteúdo suba no GitHub na pasta da aula de hoje e disponibilize o link 
 na plataforma do IOS
+
+º React >
+é Uma biblioteca que utiliza a linguagem de progamação javaScript(que é uma das mais versáteis),
+ cria aplicações web para serem executadas em navegadores, sejam eles para desktop, mobile ou qualquer outro dispositivo.
+ Foi criado para simplificar um processo complexo, o React tem como uma de suas principais características a acessibilidade
+  com que ele é compreendido. Para os iniciantes em programação, esta com certeza é uma das mais úteis bibliotecas a ser estudada.
+
+  link:https://kenzie.com.br/blog/react/
+
+º Diferença de biblioteca e Framework >
+
+A diferença técnica entre um framework e uma biblioteca está em um termo chamado inversão do controle.
+Ao usar uma biblioteca, você está no controle do fluxo da aplicação. Você seleciona quando e onde chamar a biblioteca.
+ Quando você usa um framework, é ele quem está ao encargo do fluxo. Ele fornece alguns lugares onde você pode encaixar
+ o seu código, mas é ele quem chama o código que você encaixou quando for necessário.
+
+link:https://www.freecodecamp.org/portuguese/news/a-diferenca-entre-um-framework-e-uma-biblioteca/#:~:text=A%20diferen%C3%A7a%20t%C3%A9cnica%20entre%20um,est%C3%A1%20ao%20encargo%20do%20fluxo.
+
+º Props >
+As props são entradas que não podem ser alteradas dentro de um componente. Componentes devem, obrigatoriamente, 
+apenas ler as props. Sendo assim, todos os componentes de React devem ser “puros” e não podem alterar nenhum valor das props
+
+link:https://www.lewagon.com/pt-BR/blog/react-componentes-e-props
+
+º hooks >
+
+
+
+
+
+º Componentes >
+componentes são funções JavaScript que podem ou não receber entradas, que chamamos de “props”, e retornam elementos 
+que serão inseridos na DOM. 
+
+

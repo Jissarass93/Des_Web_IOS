@@ -8,7 +8,7 @@
 // página web apenas deixando os botões amostra.
 
 
-titulo.innerHTML = 'Exercício DOM-parte-2';
+titulo.innerHTML = 'Exercício DOM-parte-3';
 
 var btns = document.querySelector('.B_12');
 var btn1 = document.querySelector('#B_01');
@@ -24,7 +24,7 @@ for (let i = 0; i < btns.length; i++) {
     btns[i].style.backgroundColor = '#D9BC66';
 
 }
-
+disabled.addEventListener('click', display_imagem)
 
 function display_imagem(src) {
     var a = document.createElement("img");
@@ -33,8 +33,10 @@ function display_imagem(src) {
     document.body.style.color = 'white'
     document.body.appendChild(a);
     console.log('mostrar imagem')
+        
 }
-    
+
+
 
 function display_nome() {
     var usuario = prompt('Escreva seu nome');
@@ -44,6 +46,8 @@ function display_nome() {
     nome.innerText = `Olá ${usuario} Bem-vindo a nossa academia`;
     document.body.appendChild(titulo)
     document.body.appendChild(nome)
+
+
 }
 
 
@@ -70,7 +74,9 @@ function display_numero() {
 
 
 }
-function display_reset() {
-    
+reload.addEventListener('click', display_reset)
 
+function display_reset() {
+
+    document.location.reload(true)
 }
