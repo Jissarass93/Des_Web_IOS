@@ -74,8 +74,8 @@ function display_numero() {
 
 
 }
-reload.addEventListener('click', display_reset)
-
+// reload.addEventListener('click', display_reset)
+// reload faz com que a página sempre seja recarregada do servidor
 function display_reset() {
 
     document.location.reload(true)

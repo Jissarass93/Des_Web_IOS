@@ -1,16 +1,6 @@
-Com suas palavras explique o que é:
-React;
-Diferença de biblioteca e Framework;
-Props;
-hooks;
-Componentes;
-Coloque todas as suas reposta em um arquivo TXT e abaixo de cada 
-resposta insira os links que você utilizou para elaborar e entender o 
-conteúdo suba no GitHub na pasta da aula de hoje e disponibilize o link 
-na plataforma do IOS
 
 º React >
-é Uma biblioteca que utiliza a linguagem de progamação javaScript(que é uma das mais versáteis),
+É uma biblioteca que utiliza a linguagem de progamação javaScript(que é uma das mais versáteis),
  cria aplicações web para serem executadas em navegadores, sejam eles para desktop, mobile ou qualquer outro dispositivo.
  Foi criado para simplificar um processo complexo, o React tem como uma de suas principais características a acessibilidade
   com que ele é compreendido. Para os iniciantes em programação, esta com certeza é uma das mais úteis bibliotecas a ser estudada.
@@ -33,9 +23,10 @@ apenas ler as props. Sendo assim, todos os componentes de React devem ser “pur
 link:https://www.lewagon.com/pt-BR/blog/react-componentes-e-props
 
 º hooks >
+dentro do React os hooks permitem o uso de vários recursos de forma simples através de funções. Eles também ajudam a organizar a lógica
+ utilizada dentro dos componentes.
 
-
-
+link:https://www.alura.com.br/artigos/react-hooks?gclid=EAIaIQobChMIjfawv5WN-AIVR0FIAB1ttQBiEAAYASAAEgIVNPD_BwE
 
 
 º Componentes >
