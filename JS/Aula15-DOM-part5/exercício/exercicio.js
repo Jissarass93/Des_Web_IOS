@@ -1,79 +1,70 @@
-// let form = document.getElementById('addForm');
-// let itemList = document.getElementById('items');
-// let filter = document.getElementById('filter');
+const produto = document.getElementById('produto');
+const quantidade = document.getElementById('quantidade');
+const valor = document.getElementById('valor');
+const items = document.getElementById('items');
+const botao = document.getElementById('botao');
 
+botao.addEventListener('click', adicionarProduto)
 
-// form.addEventListener('submit', addItem);
-// itemList.addEventListener('click', removeItem);
-// filter.addEventListener('keyup', buscarItems);
+function adicionarProduto(e) {
+    e.preventDefault()
 
-// function addItem(e) {
-//     e.preventDefault();
-//     // Pega o valor do <input>
-//     let newItem = document.getElementById('item').value;
-//     // Cria novo elemento <li>
-//     let li = document.createElement('li');
-//     // Adiciona classe
-//     li.className = 'list-group-item';
-//     // Adiciona o texto no novo elemento com o valor armazenado no newItem
-//     li.appendChild(document.createTextNode(newItem));
-//     // Cria o elemento botão para deletar um item
-//     let deleteBtn = document.createElement('button');
-//     // Adiciona classes para o botão de deletar
-//     deleteBtn.className = 'btn btn-danger btn-sm float-end p-1 delete';
-//     // Acrescenta o texto no novo elemento
-//     deleteBtn.appendChild(document.createTextNode('x'));
-//     // Acrescenta o botão no elemento li
-//     li.appendChild(deleteBtn);
-//     itemList.appendChild(li); // Adiciona o novo item na lista
-//     form.reset(); // Limpa o formulário
-// }
-// function removeItem(e) {
-//     if (e.target.classList.contains('delete')) {
-//         let li = e.target.parentElement;
-//         itemList.removeChild(li);
-//     }
-// }
+    // Pegar valores do usuário
+    let produto1 = produto.value;
+    let quantidade1 = Number(quantidade.value);
+    let valor1 = Number(valor.value);
+    let total = valor1 * quantidade1
 
+    // Criando li para adicionar na lista de items
+    let li = document.createElement('li');
+    li.classList= 'list-group-item'
+    li.innerText = `Produto: ${produto1} Quantidade: ${quantidade1} Valor: ${valor1} Total: ${total}`;
+    
+    // Botão de adicionar
+    let botaoAdicionar = document.createElement("button")
+    botaoAdicionar.innerText = "+"
+    botaoAdicionar.classList = "btn btn-success btn-sm float-end p-1 active"
+    botaoAdicionar.addEventListener("click", incrementarProduto)
+    li.appendChild(botaoAdicionar)
 
-// // Delete event
-// itemList.addEventListener('click', addItem);
-// // Filter event
-// filter.addEventListener('keyup', buscarItems);
-// function adicionaBotao(e) {
-//     e.preventDefault();
-//     // Pega o valor do <input>
-//     let newItem = document.getElementById('item').value;
-//     // Cria novo elemento <li>
-//     let li = document.createElement('li');
-//     // Adiciona classe
-//     li.className = 'list-group-item';
-//     // Adiciona o texto no novo elemento com o valor armazenado no newItem
-//     li.appendChild(document.createTextNode(newItem));
-//     // Cria o elemento botão para adicionar um item
-//     let activeBtn = document.createElement('button');
-//     // Adiciona classes para o botão de deletar
-//     activeBtn.className = 'btn btn-success btn-sm float-end p-1 active';
-//     // Acrescenta o texto no novo elemento
-//     activeBtn.appendChild(document.createTextNode('+'));
-//     // Acrescenta o botão no elemento li
-//     li.appendChild(activeBtn);
-//     itemList.appendChild(li); // Adiciona o novo item na lista
-//     form.reset(); // Limpa o formulário
-// }
-// var frutas = ['Banana', ' Maça', 'Morango', 'Melão','Manga']
+    // Botão de diminuir
+    let botaoDiminuir = document.createElement("button")
+    botaoDiminuir.innerText = "-"
+    botaoDiminuir.classList = "btn btn-warning btn-sm float-end p-1 active mx-3"
+    botaoDiminuir.addEventListener("click", decrementarProduto)
+    li.appendChild(botaoDiminuir)
 
+    // Botão de excluir
+    let botaoExcluir = document.createElement("button")
+    botaoExcluir.innerText = "x"
+    botaoExcluir.classList = "btn btn-danger btn-sm float-end p-1 delete"
+    botaoExcluir.addEventListener("click", deletarProduto)
+    li.appendChild(botaoExcluir)
 
-var quantidadeFrutas = [0, 0, 0, 0, 0, 0, 0, 0]
-const valorFrutas =[1, 5, 2.5, 5, 8, 5, 5, 2.5]
-const nomeFrutas= ["Maçã", "Abacate", "Banana", "Jaca", "Melancia", "Mamão", "Melão", "Caqui"]
-const Botoes= ["btnMaca", "btnAbacate", "btnBanana", "btnJaca", "btnMelancia", "btnMamão", "btnMelão", "btnCaqui"]
-
-function somaUm(varDeArmazenamento){
-varDeArmazenamento = varDeArmazenamento++;
+    // Adicionando a li com as informações na lista de items
+    items.appendChild(li)
 }
 
+function incrementarProduto (e){
+    e.preventDefault()
 
-for (i= 0; i< valorFrutas.length; i++){
-    document.getElementById(botoes[i]).addEventListener("onClick", somaUm(quantidadeFrutas[i])
+    // Li que o botão pertence
+    let li = this.parentElement
+    console.log(li)
+}
+
+function decrementarProduto (e){
+    e.preventDefault()
+
+    // Li que o botão pertence
+    let li = this.parentElement
+    console.log(li)
+}
+
+function deletarProduto (e){
+    e.preventDefault()
+
+    // Li que o botão pertence
+    let li = this.parentElement
+    console.log(li)
 }
