@@ -17,9 +17,9 @@ function adicionarProduto(e) {
 
     // Criando li para adicionar na lista de items
     let li = document.createElement('li');
-    li.classList= 'list-group-item'
+    li.classList = 'list-group-item'
     li.innerText = `Produto: ${produto1} Quantidade: ${quantidade1} Valor: ${valor1} Total: ${total}`;
-    
+
     // Botão de adicionar
     let botaoAdicionar = document.createElement("button")
     botaoAdicionar.innerText = "+"
@@ -45,26 +45,29 @@ function adicionarProduto(e) {
     items.appendChild(li)
 }
 
-function incrementarProduto (e){
+function incrementarProduto(e) {
     e.preventDefault()
 
     // Li que o botão pertence
     let li = this.parentElement
+   
+    // console.log(li)
+}
+
+function decrementarProduto(e) {
+    e.preventDefault()
+
+    // Li que o botão pertence
+    let li = this.parentElement
+    li.remove(-1)
     console.log(li)
 }
 
-function decrementarProduto (e){
+function deletarProduto(e) {
     e.preventDefault()
 
     // Li que o botão pertence
     let li = this.parentElement
-    console.log(li)
-}
-
-function deletarProduto (e){
-    e.preventDefault()
-
-    // Li que o botão pertence
-    let li = this.parentElement
+    li.remove()
     console.log(li)
 }
