@@ -1,18 +1,26 @@
 import PropTypes from "prop-types";
 import { useState } from "react";
 
-function Nome ( { aluno } )
+const estilo = { 
+    color: 'blue', 
+    borderBotton: 'black solid 2px', 
+    textAlign: 'center' ,
+    
+    
+    }; 
+
+function Nome ( { pessoa } )
 {
-    const [ nome, setNome ] = useState( aluno );
+    const [ nome, setNome ] = useState( pessoa );
 
     return (
-        <div className="nome">
-            <h1>{ nome }</h1>
+        <div style={estilo} className="pessoa">
+            <h1>{nome}</h1>
         </div>
     )
 }
 
-Nome.propTypes = { aluno: PropTypes.string };
-Nome.defaultProps = { aluno: "Aluno" };
+Nome.propTypes = { pessoa: PropTypes.string };
+Nome.defaultProps = { pessoa: "Aluno" };
 
 export default Nome;
