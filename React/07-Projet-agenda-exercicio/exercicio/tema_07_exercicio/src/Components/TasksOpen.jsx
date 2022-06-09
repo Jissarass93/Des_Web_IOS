@@ -1,11 +1,11 @@
-import { FaTimes } from 'react-icons/fa';
+import { FaToggleOn } from 'react-icons/fa';
 
-const TaskItem = ({ task, onDelete }) => {
+const TaskOpen = ({ task, onDelete }) => {
     return (
         <div className="task">
             <h3>
                 {task.text}
-                <FaTimes
+                <FaToggleOn
                     style={{ color: 'red', cursor: 'pointer' }}
                     onClick={() => onDelete(task.id)}
                 />
@@ -15,4 +15,4 @@ const TaskItem = ({ task, onDelete }) => {
     );
 };
 
-export default TaskItem;
+export default TaskOpen

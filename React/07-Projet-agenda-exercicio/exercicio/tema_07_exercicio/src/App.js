@@ -1,5 +1,7 @@
-import Header from './Components/Header';
-import Tasks from './Components/Tasks';
+import './App.css';
+import NewTasks from'./NewTasks';
+import TasksOpen from'./Components/TasksOpen';
+import TasksDone from './Components/TasksDone';
 import { useState } from 'react';
 
 function App() {
@@ -55,12 +57,3 @@ function App() {
 }
 
 export default App;
-
-// Deletar tarefa 
-//setTasks  atulizar os valores da task
-//useState criar uma variavel 
-
-
-
-
-
