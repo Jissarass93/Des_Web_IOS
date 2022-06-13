@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import Button from './Button';
 
 
-const Header = ({ title }) => {
+const NewTasks = ({ title }) => {
     const onClick = () => {
         alert('Clicou');
     };
@@ -15,12 +15,12 @@ const Header = ({ title }) => {
     );
 };
 
-Header.defaultProps = {
+NewTasks.defaultProps = {
     title: 'Tarefas',
 };
 
-Header.propTypes = {
+NewTasks.propTypes = {
     title: PropTypes.string.isRequired,
 };
 
-export default Header; 
+export default NewTasks; 
