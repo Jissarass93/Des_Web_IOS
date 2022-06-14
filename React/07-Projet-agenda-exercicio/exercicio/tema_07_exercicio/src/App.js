@@ -42,14 +42,13 @@ function App() {
 
   return (
     <div className="container">
-      <NewTasks title="tarefas" />
+      <Header title="tarefas" />
       {tasks.length > 0 ? (
-        <TasksOpen
-          TasksOpen={tasks}
+        <Tasks
+          tasks={tasks}
           onDelete={deletaTarefa}
           onToggle={mudarReminder}
         />
-        
       ) : (
         'Você não tem tarefas, pode tirar férias!'
       )}
