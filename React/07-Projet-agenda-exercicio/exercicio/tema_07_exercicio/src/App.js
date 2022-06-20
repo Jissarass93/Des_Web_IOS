@@ -4,6 +4,7 @@ import TasksOpen from'./Components/TasksOpen';
 import TasksDone from './Components/TasksDone';
 import { useState } from 'react';
 
+
 function App() {
   const [tasks, setTasks] = useState([
     {
@@ -42,18 +43,21 @@ function App() {
 
   return (
     <div className="container">
-      <Header title="tarefas" />
-      {tasks.length > 0 ? (
-        <Tasks
-          tasks={tasks}
-          onDelete={deletaTarefa}
+      < NewTasks title="tarefas" />
+      {TasksOpen.length > 0 ? (
+        <TasksOpen
+          NewTasks={tasks}
+          onDelete={deletaTarefa}          
+        />)(
+        <TasksDone
+        TasksDone={tasks}
           onToggle={mudarReminder}
-        />
+          />
       ) : (
         'Você não tem tarefas, pode tirar férias!'
       )}
     </div>
-  );
-}
-
+  );}
+  
+      
 export default App;
