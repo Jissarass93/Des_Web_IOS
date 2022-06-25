@@ -1,45 +1,36 @@
 import java.util.Scanner;
-import java.util.Calendar;
-import java.util.Date;
 
 public class Mes {
     public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+        System.out.println("Digite um mes : ");
+        String mesDigitado = entrada.next();
 
+        String[] mesesOutono = {"Abril", "Maio", "Junho"};
+        String[] mesesPrimavera = {"Outubro", "Novembro", "Dezembro"};
+        String[] mesesVerao = {"Janeiro", "Fevereiro", "Marco"};
+        String[] mesesInverno = {"Julho", "Agosto", "Setembro"};
 
-        int dia, mes;
-        int ano = Calendar.getInstance().get(Calendar.YEAR);
-        Date data;
-        Date out = new Date(ano, 3, 20);
-        Date inv = new Date(ano, 6, 21);
-        Date pri = new Date(ano, 9, 22);
-        Date ver = new Date(ano, 12, 21);
+        for (int i = 0; i < 3; i++) {
+            if (mesDigitado.equalsIgnoreCase(mesesOutono[i])) {
+                System.out.println("O mes " + mesDigitado + " pertence ao Outono.");
 
-        Scanner teclado = new Scanner(System.in);
-        System.out.print("Dia: ");
+            } else if (mesDigitado.equalsIgnoreCase(mesesPrimavera[i])) {
+                System.out.println("O mes " + mesDigitado + " pertence ao Primavera.");
 
-        dia = teclado.nextInt();
+            } else if (mesDigitado.equalsIgnoreCase(mesesVerao[i])) {
+                System.out.println("O mes " + mesDigitado + " pertence ao Verao.");
 
-        System.out.print("Mês: ");
-
-        mes = teclado.nextInt();
-
-
-        try {
-            data = new Date(ano, mes, dia);
-            if (data.equals(out) || (data.after(out) && data.before(inv))) {
-                System.out.println("Outono");
-            } else if (data.equals(inv) || (data.after(inv) && data.before(pri))) {
-                System.out.println("Inverno");
-            } else if (data.equals(pri) || (data.after(pri) && data.before(ver))) {
-                System.out.println("Primavera");
-            } else {
-                System.out.println("Verão");
-
-            }
-        } catch (Exception e) {
-            System.out.println("Error: " + e.getMessage());
-            teclado.close();
+            } else if (mesDigitado.equalsIgnoreCase(mesesInverno[i])) {
+                System.out.println("O mes " + mesDigitado + " pertence ao Inverno.");
+            } else
+                System.out.println("Mes invalido !!");
+            break;
         }
+        entrada.close();
     }
-
 }
+
+
+
+
