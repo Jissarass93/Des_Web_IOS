@@ -6,6 +6,7 @@ public class Menor {
         Random rand = new Random();
         int[]  num = new int[10];
 
+        int menor;
 
 
         for (int i = 0; i < num.length; i ++){
@@ -13,7 +14,21 @@ public class Menor {
 
             System.out.println("os numeros é: " + num[i]);
         }
-
-
+        for(int i=0;i<num.length;i++) {
+            for(int j=i+1;j<num.length;j++) {
+                if(num[i] > num[j]) {
+                    menor = num[i];
+                    num[i] = num[j];
+                    num[j] = menor;
+                }
+            }
+        }
+        System.out.println("O menor numero é: " + num[0]);
     }
 }
+
+
+
+
+
+
