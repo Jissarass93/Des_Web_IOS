@@ -12,7 +12,7 @@ public class Menor {
         for (int i = 0; i < num.length; i ++){
             num[i] = rand.nextInt(10);
 
-            System.out.println("os numeros é: " + num[i]);
+            System.out.println("os numeros ï¿½: " + num[i]);
         }
         for(int i=0;i<num.length;i++) {
             for(int j=i+1;j<num.length;j++) {
@@ -23,7 +23,7 @@ public class Menor {
                 }
             }
         }
-        System.out.println("O menor numero é: " + num[0]);
+        System.out.println("O menor numero ï¿½: " + num[0]);
     }
 }
 
