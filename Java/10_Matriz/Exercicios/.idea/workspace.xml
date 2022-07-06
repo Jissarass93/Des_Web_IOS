@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f2f6e3c-2a87-4cca-a5af-70343c3decb0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../ Projeto_31_Matriz/Projeto_31_Matriz.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ Projeto_31_Matriz/src/Exemplo1Matriz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ Projeto_31_Matriz/src/Exemplo2Matriz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Matriz4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../08_Vetor/Exercicio/src/out/production/Exercicio/MaiorMenorMedia.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../08_Vetor/Exercicio/src/out/production/Exercicio/MaiorMenorMedia.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../08_Vetor/Exercicio/src/out/production/Exercicio/Menor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../08_Vetor/Exercicio/src/out/production/Exercicio/Menor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../09_String/Exercicio/Exercicio/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../09_String/Exercicio/Exercicio/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../09_String/Exercicio/Exercicio/out/production/Exercicio/Frutas.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../09_String/Exercicio/Exercicio/out/production/Exercicio/Frutas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../09_String/Exercicio/Exercicio/src/Frutas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../09_String/Exercicio/Exercicio/src/Frutas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Matriz100.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Matriz5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Matriz4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Matriz4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +37,21 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Matriz4.java" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Matriz100" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Matriz100" />
+      <module name="Exercicios" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Matriz100" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
